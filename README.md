@@ -1,10 +1,10 @@
 # GoPiGo C. elegans Connectome Code
 
-The GoPiGoConnectomev(n).py Python program provided here can be used with a Raspberry Pi GoPiGo robotic kit created by Dexter Industries.
+The GoPiGoConnectome Python program provided here can be used with a Raspberry Pi GoPiGo robotic kit created by Dexter Industries.
 
 To run this code, from the Pi directory, type 
 ```
-sudo Python GoPiGoConnectome.py
+sudo python connectome.py
 ```
 
 The tiny worm Caenorhabditis elegans has only 302 neurons but exhibits some complex behaviors. When the worm senses food through a variety of sensory neurons, the worm will move forward towards that food source. When the worm’s nose senses a blocking object, the worm will stop, backup and change direction to move around the object or avoid it all together. After successfully simulating the worm’s brain in a more complex environment, I wanted to see if a similar application could be created in a much simpler environment and the GoPiGo with a Raspberry Pi was the perfect answer. 
